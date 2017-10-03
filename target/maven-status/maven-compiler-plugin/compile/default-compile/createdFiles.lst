@@ -1,0 +1,5 @@
+com/example/osgiproject/package01/HelloServiceImpl.class
+com/example/osgiproject/package01/internal/HelloServiceComponent.class
+com/example/osgiproject/package01/Hello.class
+com/example/osgiproject/package01/HelloImpl.class
+com/example/osgiproject/package01/HelloService.class

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1506881044138
+Build-Jdk: 1.8.0_131
+Built-By: dewni
+Bundle-Description: WSO2 is an open source application development softw
+ are company focused on providing service-oriented        architecture s
+ olutions for professional developers.
+Bundle-DocURL: http://www.wso2.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: osgiproject
+Bundle-SymbolicName: osgiproject
+Bundle-Vendor: WSO2
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.example.osgiproject.package01;version="1.0.0.SNAPSHO
+ T",com.example.osgiproject.package01.internal;version="1.0.0.SNAPSHOT";
+ uses:="org.osgi.framework"
+Import-Package: org.osgi.framework;version="[1.7,2)",org.osgi.service.co
+ mponent;version="[1.2,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Service-Component: OSGI-INF/com.example.osgiproject.package01.internal.H
+ elloServiceComponent.xml
+Tool: Bnd-3.3.0.201609221906
